@@ -1,0 +1,1 @@
+INSERT INTO student (name, email, date_of_birth) VALUES ('Daniel', 'dk@abv.bg', '1998-09-03T00:00:00Z')
