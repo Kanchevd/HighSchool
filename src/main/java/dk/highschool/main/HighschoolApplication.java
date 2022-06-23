@@ -8,8 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-    "dk.highschool.controllers", "dk.highschool.services", "dk.highschool.entities", "dk.highschool.repositories",
-    "dk.highschool.initial_data"
+    "dk.highschool.controllers", "dk.highschool.services", "dk.highschool.entities", "dk.highschool.repositories"
 })
 @EntityScan(basePackages = {
     "dk.highschool.entities"
